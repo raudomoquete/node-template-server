@@ -1,0 +1,34 @@
+{
+  "name": "template-server",
+  "version": "1.0.0",
+  "description": "README.md created",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raudomoquete/node-template-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/raudomoquete/node-template-server/issues"
+  },
+  "homepage": "https://github.com/raudomoquete/node-template-server#readme",
+  "dependencies": {
+    "compression": "^1.8.0",
+    "dotenv": "^17.2.0",
+    "envalid": "^8.0.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/dotenv": "^6.1.1",
+    "@types/express-rate-limit": "^5.1.3",
+    "@types/node": "^24.0.12"
+  }
+}
